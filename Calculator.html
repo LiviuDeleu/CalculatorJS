@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="bck">
+        <form name="form">
+            <input placeholder="0" readonly>
+        </form>
+                <hr>
+             <div class="bot">
+                  <button class="btns" id="red" onclick="clearAll()">
+                     <h1>C</h1>
+                  </button>
+                 <button class="btns"onclick="insert( ')"> 
+                     <h1 class="green">( )</h1> 
+                 </button> 
+                 <button class="btns"onclick="insert('%')">
+                     <h1 class="green">%</h1>
+                 </button>
+                 <button class="btns"onclick="insert('/')">
+                     <h1 class="green">/</h1>
+                 </button>
+                 <button class="btns"onclick="insert('9')">
+                     <h1 class="white">9</h1>
+                 </button>
+                 <button class="btns"onclick="insert('8')">
+                     <h1 class="white">8</h1>
+                 </button>
+                 <button class="btns"onclick="insert('7')">
+                     <h1 class="white">7</h1>
+                 </button>
+                 <button class="btns"onclick="insert('*')">
+                     <h1 class="green">*</h1>
+                 </button>
+                 <button class="btns"onclick="insert('6')">
+                     <h1 class="white">6</h1>
+                 </button>
+                 <button class="btns"onclick="insert('5')">
+                     <h1 class="white">5</h1>
+                 </button>
+                 <button class="btns"onclick="insert('4')">
+                     <h1 class="white">4</h1>
+                 </button>
+                 <button class="btns"onclick="insert('-')">
+                     <h1 class="green">-</h1>
+                 </button>
+                 <button class="btns"onclick="insert('3')">
+                     <h1 class="white">3</h1>
+                 </button>
+                 <button class="btns"onclick="insert('2')">
+                     <h1 class="white">2</h1>
+                 </button>
+                 <button class="btns"onclick="insert('1')">
+                     <h1 class="white">1</h1>
+                 </button>
+                 <button class="btns"onclick="insert('+')">
+                     <h1 class="green">+</h1>
+                 </button>
+                 <button class="btns"onclick="insert('**')">
+                     <h1 class="white">X^</h1>
+                 </button>
+                 <button class="btns"onclick="insert('0')">
+                     <h1 class="white">0</h1>
+                 </button>
+                 <button class="btns"onclick="insert('.')">
+                  .
+                 </button>
+                 <button class="btns" id="green">
+                     <h1>=</h1>
+                 </button>
+             </div>
+     </div>
+<script src="script.js"></script>
+</body>
+</html>
