@@ -4,11 +4,25 @@
     width: 400px;
     height: 600px;
     border-radius: 25px;
-    animation-name:culoare;
     border: solid;
     border-color: #FF5959;
+    animation:culoare 2s ease-in .3s infinite normal none;
 }
 
+@keyframes culoare{
+    0%{
+        border-color: #FF5959;
+    }
+    25%{
+        border-color: #ff0000;
+    }
+    50%{
+        border-color: aqua;
+    }
+    100%{
+        border-color: #66FF7F;
+    }
+}
 
 body{
     display: flex;
@@ -62,6 +76,20 @@ h1{
 #green{
     background: #66FF7F;
     border-radius: 9px;
+    border: solid;
+    border-color: #77ff00;
+    animation:culoareverde 2s ease-in .3s infinite normal none;
+}
+@keyframes culoareverde{
+        0%{
+            border-color: #66FF7F;
+        }
+        50%{
+            border-color: #048419;
+        }
+        100%{
+            border-color: #00420b;
+        }
 }
 .white{
     font-family: 'Inter';
