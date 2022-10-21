@@ -12,6 +12,10 @@ function egal() {
         document.form.textview.value = eval(calcValue);
     }
 }
+function sterge() {
+  let delSign = document.form.textview.value;
+  document.form.textview.value = delSign.substring(0, delSign.length - 1);
+}
 /*---------------------------------------Body--------------------------------------------------------*/
 var colors = new Array(
     [62,35,255],

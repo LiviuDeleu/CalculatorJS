@@ -16,17 +16,18 @@
                 <hr>
              <div class="bot">
                   <button class="btns" id="red" onclick="clearr()">
-                     <h1>AC</h1>
+                     <h1><i class="fa-solid fa-trash"></i></h1>
                   </button>
-                 <button class="btns"onclick="insert( ')"> 
-                     <h1 class="green">( )</h1> 
+                   <button class="btns"onclick="sterge()">
+                    <h1 class="white"> <i class="fa-solid fa-delete-left"></i> </h1>
+                </button>
+                 <button class="btns"onclick="insert('(')"> 
+                     <h1 class="green">(</h1> 
                  </button> 
-                 <button class="btns"onclick="insert('%')">
-                     <h1 class="green">%</h1>
+                 <button class="btns"onclick="insert(')')">
+                     <h1 class="green">)</h1>
                  </button>
-                 <button class="btns"onclick="insert('/')">
-                     <h1 class="green">/</h1>
-                 </button>
+                 
                  <button class="btns"onclick="insert('9')">
                      <h1 class="white">9</h1>
                  </button>
@@ -36,9 +37,10 @@
                  <button class="btns"onclick="insert('7')">
                      <h1 class="white">7</h1>
                  </button>
-                 <button class="btns"onclick="insert('*')">
-                     <h1 class="green">*</h1>
+                 <button class="btns"onclick="insert('/')">
+                     <h1 class="green">/</h1>
                  </button>
+                 
                  <button class="btns"onclick="insert('6')">
                      <h1 class="white">6</h1>
                  </button>
@@ -48,9 +50,10 @@
                  <button class="btns"onclick="insert('4')">
                      <h1 class="white">4</h1>
                  </button>
-                 <button class="btns"onclick="insert('-')">
-                     <h1 class="green">-</h1>
+                 <button class="btns"onclick="insert('*')">
+                     <h1 class="green">*</h1>
                  </button>
+                 
                  <button class="btns"onclick="insert('3')">
                      <h1 class="white">3</h1>
                  </button>
@@ -60,9 +63,10 @@
                  <button class="btns"onclick="insert('1')">
                      <h1 class="white">1</h1>
                  </button>
-                 <button class="btns"onclick="insert('+')">
-                     <h1 class="green">+</h1>
+                 <button class="btns"onclick="insert('-')">
+                     <h1 class="green">-</h1>
                  </button>
+                 
                  <button class="btns"onclick="insert('**')">
                      <h1 class="white">X^</h1>
                  </button>
@@ -72,13 +76,27 @@
                  <button class="btns"onclick="insert('.')">
                   .
                  </button>
-                 <button class="btns" id="green" onclick="egal()">
-                     <h1>=</h1>
+                 <button class="btns"onclick="insert('+')">
+                     <h1 class="green">+</h1>
                  </button>
+                 <button class="btns"onclick="insert('0')">
+                    <h1 class="white">M1</h1>
+                </button>
+                <button class="btns"onclick="insert('0')">
+                    <h1 class="white">M2</h1>
+                </button>
+                <button class="btns"onclick="insert('3.14')">
+                    <h1 class="white">PI</h1>
+                </button>
+               
+                <button class="btns" id="green" onclick="egal()">
+                    <h1><i class="fa-solid fa-equals"></i></h1>
+                </button>
              </div>
      </div>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/5067766925.js" crossorigin="anonymous"></script>
 </div>
 </body>
 </html>
