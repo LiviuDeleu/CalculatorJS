@@ -1,5 +1,5 @@
 .bck{
-    margin-left: 600px;
+    margin-left: 650px;
     background-color:black; 
     width: 400px;
     height: 670px;
@@ -7,6 +7,7 @@
     border: solid;
     border-color: #FF5959;
     animation:culoare 2s ease-in .3s infinite normal none;
+    transform: translateY(80px);
 }
 
 @keyframes culoare{
@@ -34,9 +35,10 @@ body{
 #gradient
 {
   width: 100%;
-  height: 800px;
+  height: 100vh;
   padding: 0px;
   margin: 0px;
+
 }
 hr{
     margin-top: 150px;
