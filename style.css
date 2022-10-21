@@ -1,5 +1,5 @@
 .bck{
-    
+    margin-left: 600px;
     background-color:black; 
     width: 400px;
     height: 600px;
@@ -25,9 +25,17 @@
 }
 
 body{
-    display: flex;
     justify-content: center;
-    background-color: rgb(99, 99, 99);
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+#gradient
+{
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
 }
 hr{
     margin-top: 150px;
