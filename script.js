@@ -16,6 +16,14 @@ function sterge() {
   let delSign = document.form.textview.value;
   document.form.textview.value = delSign.substring(0, delSign.length - 1);
 }
+
+function sqrt(){
+ let calcValue = document.form.textview.value;
+ if(calcValue) {
+     document.form.textview.value = Math.sqrt(calcValue);
+}
+}
+
 /*---------------------------------------Body--------------------------------------------------------*/
 var colors = new Array(
     [62,35,255],
